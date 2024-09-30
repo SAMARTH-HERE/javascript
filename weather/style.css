@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+    display: flex;
+    align-items: right;
+    position: absolute;
+    justify-content: center;
+    left: 600px;
+    top: 120px;
+
+
+}
+
+.container{
+    width: 250px;
+    height: 470px;
+    padding: 30px;
+    background-color: rgb(216, 56, 56);
+    border-radius: 15px;
+
+    
+}
+.btnsrc{
+    height: 30px;
+    border-radius: 10px;
+}
+.text{
+    height: 30px;
+    border-radius: 10px;
+}
+.details{
+    display: flex;
+    gap: 50px;
+    padding-left: 20px;
+
+}
+.humidity, .wind{
+    font-size: 20px;
+}
